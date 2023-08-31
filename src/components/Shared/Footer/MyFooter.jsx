@@ -1,5 +1,5 @@
 import { Footer } from "flowbite-react";
-import React from "react";
+
 import {
   FaFacebook,
   FaInstagram,
@@ -14,7 +14,7 @@ const MyFooter = () => {
       <div className="w-full">
         <div className="bg-gray-700 grid w-full grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
           <div>
-            <Footer.Title title="Cookiteer" />
+            <Footer.Title title="Need Cookie" />
             <Footer.LinkGroup col={true}>
               <Footer.Link href="#">About</Footer.Link>
               <Footer.Link href="#">Careers</Footer.Link>
